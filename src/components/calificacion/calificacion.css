@@ -1,0 +1,89 @@
+@import
+url('https://fonts.googleapis.com/css2? family= Marcellus &familia= Playfair+Pantalla &familia= Roboto:peso@100 & display=swap');
+:root{
+ --azulclaro: #48D6ED;
+ --azuloscuro: #337AB7;
+ --azulnegro: #303342;
+ --negro: #333333;
+ --negro2: #000;
+ --gris: #B2B3B3;
+ --fondo: #FFFEFC;
+ --verdeazul: #157A8A;
+ --Magenta: #9C2759;
+ --blanco: #fff;
+ --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+ --blanconegro: linear-gradient(rgba(0, 0, 0, 0.842) 40%, white 0%);
+ --negroblanco: linear-gradient(white 30%, rgba(72, 72, 252, 0.582) 0%);
+
+}
+*{ 
+ margin:0;
+}
+
+body{
+  font-family: 'Roboto' , sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Marcellus', serif;
+}
+@media screen and (min-width:320px) and (max-width:1024px) {
+    #calificacion{
+        background: var(--blanconegro);
+        color: var(--blanco);
+        padding: 1rem;
+      }
+      
+      .caja-user{
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        column-gap: 10px;
+        margin: 0;
+      }
+      
+      .title-calificacion{
+        text-align: center;
+        font-size: 2em;
+        margin: 1rem;
+      }
+    
+      .user2 img{
+        width: 100%;
+        height: 100%;
+      }
+      .user1 img{
+        width: 100%;
+        height: 100%;
+      }
+}
+
+@media screen and (min-width: 1024px){
+    #calificacion{
+        background: var(--blanconegro);
+        color: var(--blanco);
+        padding: 1rem;
+      }
+      
+      .caja-user{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 20px;
+        margin: 0;
+      }
+      
+      .title-calificacion{
+        text-align: center;
+        font-size: 3em;
+        margin: 1rem;
+      }
+      .user2 img{
+        width: 100%;
+        height: 100%;
+      }
+      .user1 img{
+        width: 100%;
+        height: 100%;
+      }
+
+}
